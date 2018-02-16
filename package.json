@@ -1,0 +1,16 @@
+{
+  "name": "animate-chat",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-js-minify": "0.0.3",
+    "gulp-watch": "^5.0.0"
+  }
+}

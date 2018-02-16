@@ -1,0 +1,74 @@
+._container {
+	position: relative;
+	width: 500px;
+	height: 190px;
+	background: #F6F6F6;
+	padding: 0 10px;
+	margin: 180px auto 0;
+	overflow: hidden;
+	border-radius: 5px;
+}
+._chat {
+	position: relative;		
+}
+.__chat {
+	display: none;
+	clear: both;
+	width: 240px;
+	color: #000;
+	font-size: 16px;
+	padding: 5px;
+	margin: 5px;
+	border-radius: 5px;
+}
+
+.__chat.right {
+	float: right;
+	background: #CDEAFC;
+}
+.__chat.left {
+	float: left;
+	background: #E8E8E8;
+}
+
+._chat .__chat.active {
+	display: block;
+	-webkit-animation: fadeIn .8s linear both;
+    animation: fadeIn .8s linear both;
+}
+
+@-webkit-keyframes fadeIn {
+	0% {
+		opacity:0;
+		-webkit-transform:translateY(20px);
+		transform:translateY(20px)
+	}
+	50% {
+		opacity:.5;
+		-webkit-transform:translateY(0);
+		transform:translateY(0)
+	}
+	100% {
+		opacity:1;
+		-webkit-transform:translateY(0);
+		transform:translateY(0)
+	}
+}
+
+@keyframes fadeIn {
+	0% {
+		opacity:0;
+		-webkit-transform:translateY(20px);
+		transform:translateY(20px)
+	}
+	50% {
+		opacity:.5;
+		-webkit-transform:translateY(0);
+		transform:translateY(0)
+	}
+	100% {
+		opacity:1;
+		-webkit-transform:translateY(0);
+		transform:translateY(0)
+	}
+}
