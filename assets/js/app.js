@@ -36,6 +36,10 @@
 	};
 
 	$(function(){
+		$('.__chat').greenify({
+		    color: "orange"
+		});
+
 		chat(console.log('%cRun!', 'color:#bada55'));
 	});
 
