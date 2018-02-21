@@ -1,7 +1,6 @@
 ;(function($, window, document, undefined) {
     'use strict';
 
-    // Botão comprar plugin e barrinha
 	$.fn.greenify = function( options ) {
         // This is the easiest way to have default options.
         var settings = $.extend({
